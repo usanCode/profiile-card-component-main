@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body{
+    
+     
+ background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg); 
+  
+  background-repeat: no-repeat, no-repeat;
+
+background-color: hsl(185, 75%, 39%) ;
+background-position-x: left,right ;
+background-position-y: top, bottom ;
+background-origin: padding-box, padding-box;
+
+background-size: 30rem,30rem;
+
+margin:auto;
+
+padding:2rem;
+width: 100%;
+font-family:Kumbh Sans ;
+
+
+}
+.main-container{
+    margin: auto;
+    
+    border-radius: 1rem;
+    z-index:1;
+    width:18rem;
+    height:24rem;
+    border-radius: 0.5rem;
+    background-color: white ;
+    z-index:  1;
+    overflow:hidden;
+}
+
+.grid-container{
+    
+    margin: auto;
+    display:grid;
+    grid-template-columns: 7rem 7rem 7rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    
+}
+
+.blue-container{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+
+}
+.blue{
+    z-index: 2;
+    width:fit-content;
+    
+    
+}
+
+.profilePicture{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:3;
+    
+}
+
+.photo{
+    border-radius: 50%;
+}
+.address{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end:4;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+.name{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    
+
+}
+.london{
+    color:hsl(227, 10%, 46%);
+}
+
+.item{
+    color:hsl(227, 10%, 46%); 
+    font-size: 13px;
+}
+
+.addressNumber{
+    color:hsl(229, 23%, 23%);
+}
+
+.lists{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:4 ;
+    grid-row-end:5;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+     line-height: 1.3rem;
+     justify-content:space-between;
+     padding-right: 2rem;
+     font-size: 18px;
+     font-family:Kumbh Sans ;
+
+}
+
+li{
+ 
+    display: grid; 
+    
+}
+.number{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+   
+}
